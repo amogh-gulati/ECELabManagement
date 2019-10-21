@@ -268,8 +268,8 @@ def login():
 if __name__=="__main__":
     ExitOut = False
     while not ExitOut:
-        auth = False
-        ExitIn = False
+        auth = True
+        ExitIn = True
         ExitOut = main_menu()
         if not ExitOut:
             auth,role,userID = login()
