@@ -37,4 +37,7 @@ def doStuff():
 
 
 if __name__=="__main__":
-    doStuff() 
+    for i in range(10):
+        doStuff()
+        break
+     
