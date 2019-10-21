@@ -12,7 +12,7 @@ def doStuff():
     mycursor = mydb.cursor()
     mycursor.execute("CREATE DATABASE mydatabase")
     mydb = mysql.connector.connect(user='root',
-    password='Onetoo3#', host='127.0.0.1',
+    password='Onetoo3#', host="localhost",
      port='3306', database="mydatabase")
 
     mycursor = mydb.cursor()
